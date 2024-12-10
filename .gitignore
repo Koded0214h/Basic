@@ -1,21 +1,25 @@
-# Python cache
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
 __pycache__/
-*.py[cod]
 
-# Virtual environment
+# Virtual environment directories
 venv/
 ENV/
 env/
+
+# Environment variables file
 .env
 
-# Django stuff:
+# Django migrations
 *.log
-*.pot
-*.pyc
-*.pyo
-*.sqlite3
+
+# SQLite database file
 db.sqlite3
-media/
+
+# Static and media files
+/media/
 staticfiles/
 
 # IDEs and editors
@@ -24,6 +28,8 @@ staticfiles/
 *.sublime-project
 *.sublime-workspace
 
-# OS files
+# macOS system files
 .DS_Store
+
+# Windows system files
 Thumbs.db
